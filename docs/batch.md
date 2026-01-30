@@ -220,3 +220,26 @@ Benchmarks recorded: MMLU, MMLU-Pro, BIG-Bench Hard (BBH), GPQA, GSM8K, HumanEva
 | Granite 4.0 H Micro 3B Instruct | granite-4.0-h-micro model card (HF) |
 | Granite 4.0 H Tiny 7B Instruct | granite-4.0-h-tiny model card (HF) |
 | Granite 4.0 H Small 32B Instruct | granite-4.0-h-small model card (HF) |
+
+# Batch 2026-01-30 (Llama Instruct + Granite 3.1 Instruct)
+
+Added 10 instruction-tuned models within the coverage window using official model card benchmark tables.
+
+Benchmarks recorded:
+- Llama 3 8B/70B Instruct: MMLU, GPQA, HumanEval, GSM8K, MATH.
+- Llama 3.1 8B/70B Instruct: MMLU, MMLU-Pro, IFEval, ARC-Challenge (ARC-C), GPQA, HumanEval, MBPP+, MultiPL-E (HumanEval), GSM8K, MATH, MGSM.
+- Llama 3.2 1B/3B Instruct: MMLU (bf16).
+- Granite 3.1 1B-A400M/2B/3B-A800M/8B Instruct: ARC-Challenge, HellaSwag, MMLU, TruthfulQA, WinoGrande, GSM8K (Open LLM Leaderboard v1); IFEval, BIG-Bench Hard, MATH (Lvl 5), GPQA, MMLU-Pro (Open LLM Leaderboard v2).
+
+| model_name | benchmarks source |
+| --- | --- |
+| Llama 3 8B Instruct | Meta Llama 3 8B Instruct model card (instruction-tuned table) |
+| Llama 3 70B Instruct | Meta Llama 3 8B Instruct model card (instruction-tuned table) |
+| Llama 3.1 8B Instruct | Meta Llama 3.1 8B Instruct model card (instruction-tuned table) |
+| Llama 3.1 70B Instruct | Meta Llama 3.1 8B Instruct model card (instruction-tuned table) |
+| Llama 3.2 1B Instruct | Llama 3.2 1B Instruct model card (instruction-tuned MMLU table) |
+| Llama 3.2 3B Instruct | Llama 3.2 1B Instruct model card (instruction-tuned MMLU table) |
+| Granite 3.1 1B-A400M Instruct | Granite 3.1 2B Instruct model card (Open LLM Leaderboard v1/v2 tables) |
+| Granite 3.1 2B Instruct | Granite 3.1 2B Instruct model card (Open LLM Leaderboard v1/v2 tables) |
+| Granite 3.1 3B-A800M Instruct | Granite 3.1 2B Instruct model card (Open LLM Leaderboard v1/v2 tables) |
+| Granite 3.1 8B Instruct | Granite 3.1 2B Instruct model card (Open LLM Leaderboard v1/v2 tables) |

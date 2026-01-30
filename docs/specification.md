@@ -14,3 +14,4 @@ Notes/Ideas (2026-01-30)
 - Consider adding a script to track which models lack benchmarks to drive batching.
 - Qwen3-Next release date currently sourced from Alibaba Cloud community post (2025-10-14); confirm if an official Qwen blog lists a different date.
 - Apertus ARC result is reported as “ARC” without easy/challenge split; recorded under ARC-Challenge with a setting note.
+- Granite 3.1 model cards report Open LLM Leaderboard v1/v2 metrics; recorded with settings noting the leaderboard version and MATH Lvl 5.

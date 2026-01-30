@@ -1,6 +1,6 @@
 # Flagship LLM Benchmark Report
 
-Scope: Flagship LLMs released from 2022-11-30 through 2025-12-22 (current coverage). Flagship size filter: include models with disclosed size >=150B; keep closed/flagship models with undisclosed size. Sources are official release posts, technical reports, or official model cards. Benchmark scores and evaluation settings are recorded in `metadata.csv` (one row per model, one column per benchmark). Benchmark feature metadata (including question counts) is in `benchmark_features.csv`. The local report path is `reports/combined_report.md` and referenced in `metadata.csv`.
+Scope: Flagship LLMs released from 2022-11-30 through 2025-12-22 (current coverage). Flagship size filter: include models with disclosed size >=150B; keep closed/flagship models with undisclosed size. Sources are official release posts, technical reports, or official model cards. Benchmark scores and evaluation settings are recorded in `data/metadata.csv` (one row per model, one column per benchmark). Benchmark feature metadata (including question counts) is in `data/benchmark_features.csv`. The local report lives at `flagship_reports/combined_report.md`.
 
 ## Task Loop Spec (single source of truth)
 1. Select the next 10 flagship models (>=150B if disclosed; avoid smaller sibling models when a flagship for the same generation exists).
@@ -21,8 +21,8 @@ Scope: Flagship LLMs released from 2022-11-30 through 2025-12-22 (current covera
   Models: Grok-1.5, MiniMax-Text-01, GPT-4.5, OpenAI o3, Claude Opus 4, Claude Sonnet 4, Claude Opus 4.1, GPT-5, Claude Sonnet 4.5, Claude Opus 4.5.
 - Loop 5 (partial, completed): 6 Chinese-company flagship models with official benchmark numbers. Benchmarks/features updated and sorted by usage frequency.
   Models: Kimi k1.5, Qwen3-235B-A22B, Hunyuan-Large, Kimi K2, GLM-4.5, Seed-Thinking-v1.5.
-- Loop 6 (partial, completed): 3 models added; MiniMax-Text-01 settings updated from official README. Benchmarks/features updated and sorted by usage frequency.
-  Models: Gemini 3.0, GLM-4.6, GLM-4.7.
+- Loop 6 (completed): 2 models added; MiniMax-Text-01 settings updated from official README. Benchmarks/features updated and sorted by usage frequency.
+  Models: Gemini 3.0, GLM-4.7.
 
 ---
 ## Loop 1 Models
@@ -209,11 +209,6 @@ Scope: Flagship LLMs released from 2022-11-30 through 2025-12-22 (current covera
 ### Gemini 3.0 — Google — 2025-11-18
 - Source: https://blog.google/products-and-platforms/products/gemini/gemini-3/
 - Benchmarks (headline): LMArena (Elo), HLE (no tools), GPQA (Diamond), MathArena Apex, MMMU-Pro, Video-MMMU, SimpleQA Verified, WebDev Arena (Elo), Terminal Bench 2.0, SWE-bench Verified.
-
-### GLM-4.6 — Zhipu AI (Z.ai) — 2025-12-22
-- Source: https://z.ai/blog/glm-4.7
-- Benchmarks (headline): MMLU-Pro, GPQA (Diamond), HLE, HLE (w/ Tools), AIME 2025, HMMT Feb/Nov 2025, IMOAnswerBench, LiveCodeBench-v6, SWE-bench Verified, SWE-bench Multilingual, Terminal Bench Hard, Terminal Bench 2.0, BrowseComp (incl. context manage, ZH), Tau2-Bench.
-- Notes: GLM-4.6 release date not specified in the source; benchmarks captured from GLM-4.7 release table.
 
 ### GLM-4.7 — Zhipu AI (Z.ai) — 2025-12-22
 - Source: https://z.ai/blog/glm-4.7
