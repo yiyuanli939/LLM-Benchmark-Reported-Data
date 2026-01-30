@@ -4,7 +4,7 @@ A curated dataset of large language models and their benchmark results, with a f
 
 ## Something Written by the Author 
 
-This project tries to keep the as less files as possible and try our best to fully automate this model seeking processes. Currently, this is a personally maintained dataset aim to help me thesis about designing a benchmark for datascience. If it can help you, I would be really glad. 
+This project tries to keep as few files as possible and tries its best to fully automate this model-seeking process. Currently, this is a personally maintained dataset aimed at helping with my thesis about designing a benchmark for data science. If it can help you, I would be really glad.
 
 ## Scope
 - Open models: 1B to 150B parameters, released 2023-01-01 through 2026-01-29.
