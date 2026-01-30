@@ -1,0 +1,114 @@
+benchmark_name,task_type,domain,modality,primary_metric,evaluation_format,benchmark_source_url,notes,num_questions
+MMLU,knowledge QA,multi-domain,text,accuracy,multiple choice,https://huggingface.co/datasets/tasksource/mmlu,Dataset viewer row count.,"15,858 (rows)"
+GSM8K,math word problems,grade school math,text,accuracy,short answer,https://huggingface.co/datasets/openai/gsm8k/blob/main/README.md,Split sizes from dataset card.,"1,319 test (7,473 train)"
+MATH,math problem solving,competition math,text,accuracy,short answer,https://huggingface.co/datasets/baber/hendrycks_math/blob/main/README.md,Split sizes from dataset card; total size in summary.,"5,000 test (12,500 total)"
+HumanEval,code generation,programming,text/code,pass@1,unit tests,https://huggingface.co/datasets/openai/openai_humaneval,Dataset viewer shows 164 test rows.,164 (test)
+SWE-bench Verified,software engineering,code,text/code,accuracy,patch-based,https://www.swebench.com/SWE-bench/faq/,SWE-bench FAQ dataset sizes.,500 instances
+GPQA (Diamond),science reasoning,graduate-level STEM,text,accuracy,multiple choice,https://huggingface.co/datasets/dongboklee/GPQA-diamond,Diamond subset size from dataset viewer.,198 (rows)
+BIG-Bench Hard,mixed reasoning,multi-domain,text,accuracy,multiple choice,https://huggingface.co/datasets/Joschka/big_bench_hard,Dataset viewer row count.,"6,538 (rows)"
+MMLU-Pro,knowledge QA,multi-domain,text,accuracy,multiple choice,https://huggingface.co/datasets/TIGER-Lab/MMLU-Pro,Dataset viewer shows 12.1k rows; 10-option MCQ.,12.1k rows (test 12k; val 70)
+ARC-Challenge,science QA,science,text,accuracy,multiple choice,https://huggingface.co/datasets/allenai/ai2_arc,ARC-Challenge split sizes from dataset viewer.,1.17k test (2.59k total)
+DROP,reading comprehension,text reasoning,text,F1,span extraction,https://www.alphaxiv.org/benchmarks/allen-institute-for-artificial-intelligence/drop,Dataset size and splits summarized from paper.,"9,536 dev (96,567 total)"
+MMMU,multimodal reasoning,multi-domain,vision+text,accuracy,multiple choice,https://huggingface.co/datasets/dspr/MMMU,"Dataset card lists 10.5K test, 11.5K total.",10.5K test (11.5K total)
+GPQA,science reasoning,graduate-level STEM,text,accuracy,multiple choice,https://huggingface.co/datasets/Idavidrein/gpqa,"Dataset card reports 448 expert-written questions across biology, physics, and chemistry.",448 (questions)
+HellaSwag,commonsense reasoning,commonsense,text,accuracy,multiple choice,https://huggingface.co/datasets/Rowan/hellaswag,Split sizes from dataset viewer.,10k test (60k total)
+MBPP,code generation,programming,text/code,pass@1,unit tests,https://huggingface.co/datasets/nlile/mbpp,"Dataset card describes ~1,000 problems and a sanitized subset.",974 test (427 sanitized)
+AIME '24,math competition,math,text,accuracy,short answer,,AIME 2024; question count not specified here.,not disclosed
+AIME 2025,math competition,math,text,accuracy,short answer,,AIME 2025; question count not specified here.,not disclosed
+"Document Visual QA (ANLS, test)",document VQA,documents,vision+text,ANLS,open-ended,https://www.docvqa.org/datasets/docvqa,DocVQA dataset page lists 50K questions.,"50,000 questions (dataset)"
+IFEval,instruction following,instruction adherence,text,accuracy,prompted responses,https://github.com/google-research/google-research/tree/master/instruction_following_eval,IFEval uses 500 prompts.,500 prompts
+LiveCodeBench,code generation,programming,text/code,accuracy,coding tasks,https://livecodebench.github.io/,LiveCodeBench benchmark; version noted in settings.,not disclosed
+MGSM,multilingual math word problems,math,text,accuracy,short answer,https://huggingface.co/datasets/alibashir/mgsm-gold,Dataset viewer row count.,"2,750 (rows)"
+MMLU-redux,knowledge QA,multi-domain,text,accuracy,multiple choice,https://huggingface.co/datasets/edinburgh-dawg/mmlu-redux,"Subset of 3,000 re-annotated MMLU questions.","3,000 (rows)"
+MMMLU,multilingual QA,multi-domain,text,accuracy,multiple choice,,Multilingual MMLU; size not specified here.,not disclosed
+WinoGrande,commonsense reasoning,coreference,text,accuracy,multiple choice,https://huggingface.co/datasets/allenai/winogrande,Dataset card describes 44k problems.,44k problems
+AI2D (test),science diagram QA,science,vision+text,accuracy,multiple choice,https://ai2-website.s3.amazonaws.com/publications/Diagrams_ECCV2016.pdf,AI2D paper reports 15k+ MCQs and ~1k test images.,"15,000+ MCQ (dataset; ~1,000 test images)"
+AIME (unspecified),math competition,math,text,accuracy,short answer,,AIME year not specified in release post.,not disclosed
+"ChartQA (relaxed accuracy, test)",chart reasoning,data/plots,vision+text,accuracy,short answer,https://aclanthology.org/2022.findings-acl.177/,Counts from ChartQA paper abstract.,32.7K total (9.6K human + 23.1K generated)
+Codeforces,competitive programming,programming,text/code,percentile,contest problems,https://openai.com/index/introducing-openai-o1-preview/,Percentile on Codeforces; problem count not disclosed.,not disclosed
+MathVista (testmini),visual math reasoning,math,vision+text,accuracy,short answer,https://mathvista.github.io/,MathVista site lists testmini and test sizes.,"1,000 (testmini); 5,141 test"
+MMMU (val),multimodal reasoning,multi-domain,vision+text,accuracy,multiple choice,https://huggingface.co/datasets/dspr/MMMU,"Dataset card lists 900 validation, 10.5K test, 11.5K total.",900 validation (11.5K total)
+MultiPL-E,code generation,programming,text/code,pass@1,unit tests,https://huggingface.co/datasets/nuprl/MultiPL-E,"Dataset card lists 22 languages; row count 12,667.","12,667 (rows)"
+SuperGPQA,science reasoning,graduate-level STEM,text,accuracy,multiple choice,,SuperGPQA variant; size not specified here.,not disclosed
+Aider Polyglot,coding,programming,text/code,accuracy,code editing,,Aider Polyglot benchmark; size not specified here.,not disclosed
+CRUX-O,reasoning,multi-domain,text,accuracy,multiple choice,,CRUX-O benchmark; size not specified here.,not disclosed
+EvalPlus,code generation,programming,text/code,pass@1,unit tests,https://github.com/evalplus/evalplus,EvalPlus benchmark; size not specified here.,not disclosed
+MATH 500,math problem solving,competition math,text,accuracy,short answer,,MATH-500 subset.,500
+MathVista,visual math reasoning,math + vision,vision+text,accuracy,short answer,https://mathvista.github.io/,MathVista full test set size not added here.,not disclosed
+SimpleQA,open-domain QA,general knowledge,text,accuracy,short answer,,SimpleQA benchmark; size not specified here.,not disclosed
+TruthfulQA,truthfulness QA,safety/knowledge,text,accuracy,multiple choice,https://huggingface.co/datasets/domenicrosati/TruthfulQA,Dataset card lists 817 questions across 38 categories.,817 (questions)
+ACEBench (En),reasoning,multi-domain,text,accuracy,multiple choice,,ACEBench English subset; size not specified here.,not disclosed
+Advanced Sommelier (theory knowledge),standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+AMC 10,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+AMC 12,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+AP Art History,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+AP Biology,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+AP Calculus BC,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+AP Chemistry,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+AP English Language and Composition,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+AP English Literature and Composition,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+AP Environmental Science,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+AP Macroeconomics,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+AP Microeconomics,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+AP Physics 2,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+AP Psychology,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+AP Statistics,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+AP US Government,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+AP US History,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+AP World History,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+ARC-AGI,general reasoning,multi-domain,text,accuracy,multiple choice,,ARC-AGI benchmark; size not specified here.,not disclosed
+Arena-Hard,chatbot eval,general,text,win rate,pairwise preference,,Arena-Hard benchmark; size not specified here.,not disclosed
+Bar Exam (MBE multiple-choice),standardized exam,law,text,accuracy,multiple choice,https://www.anthropic.com/news/claude-2,Release post does not state question counts.,not disclosed (standardized exam)
+Beyond AIME,math reasoning,math,text,accuracy,short answer,,Beyond AIME benchmark; size not specified here.,not disclosed
+BFCL v3,function calling,tool use,text,accuracy,function call,,BFCL v3 benchmark; size not specified here.,not disclosed
+C-Eval,exam-style QA,Chinese exams,text,accuracy,multiple choice,https://huggingface.co/datasets/ceval/ceval,C-Eval dataset size not added; see dataset card.,not disclosed
+C-SimpleQA,open-domain QA,general knowledge (Chinese),text,accuracy,short answer,,Chinese SimpleQA benchmark; size not specified here.,not disclosed
+Certified Sommelier (theory knowledge),standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+CMATH,math reasoning,Chinese math,text,accuracy,short answer,,CMATH benchmark; size not specified here.,not disclosed
+CMMLU,exam-style QA,Chinese knowledge,text,accuracy,multiple choice,https://huggingface.co/datasets/haonan-li/cmmlu,CMMLU dataset size not added; see dataset card.,not disclosed
+Codeforces avg@8,competitive programming,programming,text/code,score,contest problems,,Codeforces average over 8 runs.,not disclosed
+Codeforces pass@8,competitive programming,programming,text/code,pass rate,contest problems,,Codeforces pass@8 metric.,not disclosed
+Codeforces Rating,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+Collie,instruction following,general,text,accuracy,prompted responses,,Collie benchmark; size not specified here.,not disclosed
+CRUX-I,reasoning,multi-domain,text,accuracy,multiple choice,,CRUX-I benchmark; size not specified here.,not disclosed
+CSQA,commonsense reasoning,commonsense,text,accuracy,multiple choice,https://huggingface.co/datasets/tau/commonsense_qa,"Dataset card lists 12,102 questions with 1 correct and 4 distractors.","12,102 (questions)"
+GRE Quantitative,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+GRE Reading & Writing,standardized exam,general reasoning/writing,text,percentile,exam-style,https://www.anthropic.com/news/claude-2,Question count not specified in available source.,not disclosed
+GRE Verbal,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+GRE Writing,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+HealthBench Hard,medical QA,health,text,accuracy,multiple choice,,Hard subset; size not specified here.,not disclosed
+IMO Qualifying Exam,math competition,math,text,accuracy,short answer,https://openai.com/index/introducing-openai-o1-preview/,IMO qualifier score; problem count not disclosed.,not disclosed
+INCLUDE,multilingual reasoning,multi-domain,text,accuracy,multiple choice,,INCLUDE benchmark; size not specified here.,not disclosed
+Introductory Sommelier (theory knowledge),standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+LeetCode (easy),standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Problem count from GPT-4 technical report table.,41
+LeetCode (hard),standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Problem count from GPT-4 technical report table.,45
+LeetCode (medium),standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Problem count from GPT-4 technical report table.,80
+LSAT,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+MBPP+,code generation,programming,text/code,pass@1,unit tests,https://huggingface.co/datasets/evalplus/mbppplus,EvalPlus MBPP+ with augmented tests.,378 (test)
+Medical Knowledge Self-Assessment Program,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+MultiChallenge (Scale),instruction following,multi-domain,text,accuracy,multi-turn,https://openai.com/index/gpt-4-1/,Question count not specified in available source.,not disclosed
+Needle In A Haystack (1M tokens),long-context retrieval,long-context reasoning,text,accuracy,retrieval,https://blog.google/innovation-and-ai/products/google-gemini-next-generation-model-february-2024/,NIAH long-context eval; synthetic needles.,not disclosed
+OJBench,coding,programming,text/code,accuracy,problem solving,,OJBench benchmark; size not specified here.,not disclosed
+OSWorld,computer use,general,vision+text,success rate,task completion,https://os-world.github.io/,OSWorld benchmark.,not disclosed
+SAT Evidence-Based Reading & Writing,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+SAT Math,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+StrategyQA,implicit multi-hop QA,general reasoning,text,accuracy,yes/no,https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00370/100680/Did-Aristotle-Use-a-Laptop-A-Question-Answering,"Paper reports 2,780 examples with decompositions and evidence.","2,780 (questions)"
+SWE-Bench Multilingual,coding,software engineering,text/code,accuracy,task completion,,Multilingual SWE-Bench benchmark; size not specified here.,not disclosed
+SWE-Lancer Diamond,coding,software engineering,text/code,accuracy,task completion,,Subset/track of SWE-Lancer; size not specified here.,not disclosed
+TAU-Bench,tool use,agentic tasks,text,success rate,task completion,,TAU-Bench benchmark; size not specified here.,not disclosed
+Tau2-Bench,tool use,agentic tasks,text,success rate,task completion,,Tau2-Bench benchmark; size not specified here.,not disclosed
+Terminal-bench,coding/tool use,software engineering,text/code,accuracy,task completion,,Terminal-bench benchmark; size not specified here.,not disclosed
+TriviaQA,reading comprehension,general knowledge,text,F1,span extraction,https://huggingface.co/datasets/mandarjoshi/trivia_qa,"Dataset card: 95K QA pairs, 650K QA-evidence triples.",95K QA pairs (650K triples)
+Uniform Bar Exam (MBE+MEE+MPT),standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,GPT-4 report does not state question counts.,not disclosed (standardized exam)
+USABO Semifinal Exam 2020,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+USNCO Local Section Exam 2022,standardized exam / test,varies,text,reported score,exam-style,https://ar5iv.labs.arxiv.org/html/2303.08774,Source is GPT-4 technical report summary table.,not disclosed
+"Video-MME (long, no subtitles)",video understanding,video,video+text,accuracy,multiple choice,https://github.com/MME-Benchmarks/Video-MME,Dataset overview in repo README.,"2,700 QA pairs (900 videos)"
+XCOPA,causal commonsense reasoning,multilingual,text,accuracy,multiple choice,https://huggingface.co/datasets/cambridgeltl/xcopa,"Dataset card covers 11 languages; 12,600 rows.","12,600 (rows)"
+HumanEval+,code generation,programming,text/code,pass@1,unit tests,https://huggingface.co/datasets/evalplus/humanevalplus,EvalPlus HumanEval+ dataset with augmented tests.,164 (test)
+MMLU-stem,knowledge QA,STEM,text,accuracy,multiple choice,https://huggingface.co/datasets/tasksource/mmlu,STEM subset of MMLU.,not disclosed
+Multi-Exam,multilingual exam mix,multilingual,text,accuracy,multiple choice,https://qwen2.org/qwen2-5/,"Composite benchmark: M3Exam, IndoMMLU, ruMMLU, mMMLU (per Qwen2.5 blog).",not disclosed (composite)
+Multi-Mathematics,multilingual math word problems,math,text,accuracy,short answer,https://qwen2.org/qwen2-5/,Composite benchmark uses MGSM (per Qwen2.5 blog).,"2,750 (MGSM rows)"
+Multi-Translation,machine translation,multilingual,text,accuracy,text generation,https://qwen2.org/qwen2-5/,Composite benchmark uses FLORES-101 (per Qwen2.5 blog).,not disclosed
+Multi-Understanding,multilingual understanding,multilingual,text,accuracy,multiple choice,https://qwen2.org/qwen2-5/,"Composite benchmark: BELEBELE, XCOPA, XWinograd, XStoryCloze, PAWS-X (per Qwen2.5 blog).",not disclosed (composite)
+Natural Questions,open-domain QA,general knowledge,text,F1,span extraction,https://github.com/google-research-datasets/natural-questions,Official repo lists train/dev/test counts.,"307,372 train; 7,830 dev; 7,842 test"
+TheoremQA,theorem-driven QA,STEM,text,accuracy,short answer,https://huggingface.co/datasets/TIGER-Lab/TheoremQA,Dataset card lists 800 QA pairs covering 350+ theorems.,800 (questions)
